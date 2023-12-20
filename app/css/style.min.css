@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -88,4 +89,37 @@ body {
 .container {
   margin: 0 auto;
   padding: 0 15px;
+}
+
+@font-face {
+  font-family: "Acrom-Regular";
+  src: url("../fonts/Acrom-Regular.eot");
+  src: local("☺"), url("../fonts/Acrom-Regular.woff") format("woff"), url("../fonts/Acrom-Regular.ttf") format("truetype"), url("../fonts/Acrom-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  display: swap;
+}
+@font-face {
+  font-family: "BelladonaFreeFonts-Regular";
+  src: url("../fonts/BelladonaFreeFonts-Regular.eot");
+  src: local("☺"), url("../fonts/BelladonaFreeFonts-Regular.woff") format("woff"), url("../fonts/BelladonaFreeFonts-Regular.ttf") format("truetype"), url("../fonts/BelladonaFreeFonts-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  display: swap;
+}
+@font-face {
+  font-family: "SlavicFreeFonts-Regular";
+  src: url("../fonts/SlavicFreeFonts-Regular.eot");
+  src: local("☺"), url("../fonts/SlavicFreeFonts-Regular.woff") format("woff"), url("../fonts/SlavicFreeFonts-Regular.ttf") format("truetype"), url("../fonts/SlavicFreeFonts-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  display: swap;
+}
+@font-face {
+  font-family: "BadScript-Regular";
+  src: url("../fonts/BadScript-Regular.eot");
+  src: local("☺"), url("../fonts/BadScript-Regular.woff") format("woff"), url("../fonts/BadScript-Regular.ttf") format("truetype"), url("../fonts/BadScript-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  display: swap;
 }
