@@ -8,7 +8,7 @@
   background: rgba(255, 255, 255, 0.70);
   width: 100%;
   position: fixed;
-
+  z-index: 100;
 }
 
 
@@ -66,7 +66,6 @@
 
 // start section main__onescreen
 .main__onescreen {
-  background-image: url('../images/content/main-header-bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -90,15 +89,69 @@
   margin-bottom: 65px;
 }
 
-.main__onescreen-wrapper{
+.main__onescreen-wrapper {
   width: 380px;
   display: flex;
   justify-content: space-between;
 }
-.main__onescreen-btn{
+
+.main__onescreen-btn {
   margin-bottom: 30px;
 }
+
 // end section main__onescreen
 
+// start section main-about
+.main-about {
+  overflow: hidden;
+}
 
+@media (min-width: 1200px) {
+  .main-about {
+    display: flex;
+  }
+}
+
+
+
+.main-about__content {
+  flex: 0 0 100%;
+}
+
+.main-about__body {
+  width: 50%;
+  padding-right: 50px;
+}
+
+.main-about__body-title {
+  max-width: 300px;
+}
+
+.main-about__images {
+  img {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main-about__images {
+    position: relative;
+    flex: 0 0 50%;
+    transform: translate(-100%, 0px);
+  }
+
+  .main-about__images {
+    img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      object-fit: cover;
+    }
+  }
+}
+
+
+// end section main-about
 @import 'media';
