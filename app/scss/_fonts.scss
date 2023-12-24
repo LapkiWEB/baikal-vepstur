@@ -14,18 +14,6 @@
 }
 
 @font-face {
-  font-family: 'BelladonaFreeFonts-Regular';
-  src: url('../fonts/BelladonaFreeFonts-Regular.eot');
-  src: local('☺'),
-    url('../fonts/BelladonaFreeFonts-Regular.woff') format('woff'),
-    url('../fonts/BelladonaFreeFonts-Regular.ttf') format('truetype'),
-    url('../fonts/BelladonaFreeFonts-Regular.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-  display: swap;
-}
-
-@font-face {
   font-family: 'SlavicFreeFonts-Regular';
   src: url('../fonts/SlavicFreeFonts-Regular.eot');
   src: local('☺'),
@@ -48,14 +36,3 @@
   font-style: normal;
   display: swap;
 }
-
-// @font-face {
-//   font-family: 'AnonymousPro-Bold';
-//   src: url('../fonts/AnonymousPro-Bold.eot');
-//   src: local('☺'),
-//     url('../fonts/AnonymousPro-Bold.woff') format('woff'),
-//     url('../fonts/AnonymousPro-Bold.ttf') format('truetype'),
-//     url('../fonts/AnonymousPro-Bold.svg') format('svg');
-//   font-weight: 700;
-//   font-style: normal;
-// }
