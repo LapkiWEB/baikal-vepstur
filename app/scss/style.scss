@@ -182,9 +182,10 @@
 // end section main-about
 
 // start section main-excurs
-.main-excurs{
+.main-excurs {
   padding-bottom: 50px;
 }
+
 .main-excurs__preview {
   background-repeat: no-repeat;
   background-size: cover;
@@ -295,14 +296,51 @@
     height: 50px;
   }
 }
-.main-excurs__btn-wrapper{
+
+.main-excurs__btn-wrapper {
   width: 100%;
   display: flex;
   justify-content: center;
   padding-top: 20px;
 }
-.main-excurs__btn{
+
+.main-excurs__btn {
   margin: 0 30px 30px 30px;
 }
+
 // end section main-excurs
+
+
+// start section main-adv
+.main-adv__inner{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.main-adv__item {
+  margin-bottom: 50px;
+  max-width: 420px;
+  width: 100%;
+}
+
+.main-adv__item-icon {
+
+  width: 100px;
+  height: 100px;
+  // display: block;4
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.main-adv__item-text {
+  font-size: 24px;
+  @extend %Acrom;
+  color: $light-brown;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+
+
+// end section main-adv
 @import 'media';
