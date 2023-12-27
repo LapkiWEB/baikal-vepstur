@@ -6,6 +6,14 @@
   .main__onescreen-title {
     padding-top: 110px;
   }
+
+  .main-excurs__preview {
+    height: 300px;
+  }
+
+  .title {
+    margin-bottom: 30px;
+  }
 }
 
 @media(max-width: 1400px) {
@@ -15,6 +23,38 @@
 
   .header__address {
     padding-left: 50px;
+  }
+
+  .main-excurs__inner {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .main-excurs__item {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 410px;
+
+    &:last-child {
+      margin-right: 20px;
+    }
+  }
+
+  .main-excurs__item-title {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .main-excurs__item-images {
+    max-width: 423px;
+    width: 100%;
+    height: 310px;
+
+    img {
+      height: 310px;
+    }
+
+
   }
 }
 
@@ -47,10 +87,19 @@
   .title {
     font-size: 48px;
     line-height: 48px;
-    margin-bottom: 30px;
   }
 
+  .section {
+    padding: 40px 0;
+  }
 
+  .main-excurs {
+    padding-bottom: 40px;
+  }
+
+  .main-excurs__inner {
+    padding-top: 40px;
+  }
 }
 
 @media(max-width: 1200px) {
@@ -68,8 +117,36 @@
     padding: 0;
     padding: 50px 0;
   }
-  .main-about__body-title{
+
+  .main-about__body-title {
     max-width: fit-content;
+  }
+}
+
+@media(max-width: 1000px) {
+  .main-excurs__item {
+    width: 310px;
+  }
+
+  .main-excurs__item-images {
+    height: 225px;
+    margin-bottom: 20px;
+
+    img {
+      height: 225px;
+    }
+  }
+
+  .main-excurs__item-title {
+    margin-bottom: 20px;
+  }
+
+  .main-excurs__item-text {
+    padding-bottom: 110px;
+  }
+
+  .main-excurs__item-date {
+    margin-bottom: 20px;
   }
 }
 
@@ -105,6 +182,32 @@
   .main__onescreen-subtitle {
     font-size: 48px;
     margin-bottom: 30px;
+  }
+
+  .main-excurs__item {
+    max-width: 350px;
+    width: 100%;
+
+  }
+
+  .main-excurs__item-images {
+    width: 100%;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .main-excurs__btn-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    flex-wrap: wrap;
+  }
+
+  .main-excurs__btn {
+    margin: 0px 10px 30px 10px
   }
 }
 
@@ -192,9 +295,19 @@
     font-size: 18px;
     line-height: 18px;
   }
-  .main-about__wrapper{
+
+  .main-about__wrapper {
     max-width: 300px;
   }
+
+  .main-excurs {
+    padding-bottom: 30px;
+  }
+
+  .main-excurs__inner {
+    padding-top: 30px;
+  }
+
 }
 
 @media(max-width: 500px) {
