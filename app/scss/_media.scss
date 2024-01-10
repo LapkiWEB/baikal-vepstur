@@ -18,7 +18,8 @@
   .main-adv__inner {
     justify-content: space-around;
   }
-  .main-request--bg{
+
+  .main-request--bg {
     padding: 100px 0;
   }
 }
@@ -47,7 +48,8 @@
     }
   }
 
-  .main-excurs__item-title {
+  .main-excurs__item-title,
+  .main-houses__item-title {
     font-size: 24px;
     line-height: 28px;
   }
@@ -157,7 +159,8 @@
     }
   }
 
-  .main-excurs__item-title {
+  .main-excurs__item-title,
+  .main-houses__item-title {
     margin-bottom: 20px;
   }
 
@@ -210,6 +213,7 @@
     z-index: 100;
     height: 250px;
     margin: 0 auto;
+
     .extra__item-text {
 
       padding-bottom: 10px;
@@ -328,12 +332,24 @@
   .main__onescreen-wrapper {
     margin: 0 auto;
   }
-  .main-request--bg{
+
+  .main-request--bg {
     padding: 50px 0;
   }
-  .request__wrapper{
+
+  .request__wrapper {
     flex-wrap: wrap;
     justify-content: center;
+  }
+
+  .main-excurs__preview {
+    background-image: none !important;
+    height: fit-content;
+    padding-top: 50px;
+  }
+
+  .main-excurs__preview-wrapper {
+    position: inherit;
   }
 }
 
@@ -423,8 +439,17 @@
   .main-adv__item-text {
     font-size: 18px;
   }
-  .extra__inner{
+
+  .extra__inner {
     padding: 0 20px;
+  }
+
+  .main-excurs__preview {
+    padding-top: 30px;
+  }
+
+  .main-houses__wrapper-btn {
+    margin-bottom: 30px;
   }
 
 }

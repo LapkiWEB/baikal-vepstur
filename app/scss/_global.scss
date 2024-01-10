@@ -260,8 +260,9 @@ body {
   background-color: transparent;
 
   &:hover {
-    border: 1px solid $white;
-    color: $white;
-    background-color: $dark-green;
+    border: 1px solid $dark-green;
+    color: $dark-green;
+    background-color: $white;
+    // background-color: $dark-green;
   }
 }
