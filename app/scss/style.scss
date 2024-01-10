@@ -380,7 +380,7 @@
 .extra__item::after {
   content: '';
   position: absolute;
-  width: 20px;
+  width: 25px;
   height: 100%;
   right: calc(var(--index) * -1);
 }
@@ -626,7 +626,31 @@
 
 // end section main-transfer
 
+// start section reminder
+.reminder__item-text{
+  margin-bottom: 50px;
 
+}
+.reminder__item{
+  padding-left: 162px;
+  padding-right: 50px;
+  max-width: 1400px;
+  width: 100%;
+  padding-top: 50px;
+}
+.reminder__inner{
+  display: flex;
+  justify-content: space-between;
+}
+.reminder__item-images{
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 485px;
+
+}
+// end section reminder
 
 
 

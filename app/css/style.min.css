@@ -141,6 +141,11 @@ body {
   padding: 0 162px;
 }
 
+.container-fluid {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
 .section {
   padding: 50px 0;
 }
@@ -756,7 +761,7 @@ body {
 .extra__item::after {
   content: "";
   position: absolute;
-  width: 20px;
+  width: 25px;
   height: 100%;
   right: calc(var(--index) * -1);
 }
@@ -1030,9 +1035,40 @@ body {
   margin-bottom: 40px;
 }
 
+.reminder__item-text {
+  margin-bottom: 50px;
+}
+
+.reminder__item {
+  padding-left: 162px;
+  padding-right: 50px;
+  max-width: 1400px;
+  width: 100%;
+  padding-top: 50px;
+}
+
+.reminder__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.reminder__item-images {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 485px;
+}
+
 @media (max-width: 1600px) {
   .container {
     padding: 0 130px;
+  }
+  .reminder__item {
+    padding-left: 130px;
   }
   .main-transfer__box {
     padding-right: 130px;
@@ -1099,6 +1135,9 @@ body {
   .container {
     padding: 0 100px;
   }
+  .reminder__item {
+    padding-left: 100px;
+  }
   .main-transfer__box {
     padding-right: 100px;
   }
@@ -1122,6 +1161,12 @@ body {
   .section {
     padding: 40px 0;
   }
+  .reminder__item {
+    padding-top: 40px;
+  }
+  .reminder__item-text {
+    margin-bottom: 40px;
+  }
   .main-excurs {
     padding-bottom: 40px;
   }
@@ -1143,6 +1188,10 @@ body {
   .container {
     padding: 0 40px;
   }
+  .reminder__item {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
   .main-transfer__box {
     padding-right: 40px;
   }
@@ -1158,6 +1207,9 @@ body {
     max-width: -webkit-fit-content;
     max-width: -moz-fit-content;
     max-width: fit-content;
+  }
+  .reminder__item-images {
+    display: none;
   }
 }
 @media (max-width: 1000px) {
@@ -1378,8 +1430,15 @@ body {
   .container {
     padding: 0 20px;
   }
+  .reminder__item {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
   .section {
     padding: 30px 0;
+  }
+  .reminder__item {
+    padding-top: 30px;
   }
   .main__onescreen {
     height: 700px;
@@ -1461,8 +1520,14 @@ body {
   }
 }
 @media (max-width: 400px) {
-  .container {
+  .container,
+  .main-transfer,
+  .extra__inner {
     padding: 0 14px;
+  }
+  .reminder__item {
+    padding-left: 14px;
+    padding-right: 14px;
   }
   .custom-logo-link {
     width: 30px;
