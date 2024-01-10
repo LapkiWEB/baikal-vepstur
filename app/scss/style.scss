@@ -569,17 +569,82 @@
   left: 0;
   right: 0;
   margin-bottom: 20px;
-  // text-align: center;
-  // width: 100%;
+
 }
-.main-houses-texe{
+
+.main-houses-texe {
   margin-bottom: 30px;
 }
-.main-houses__wrapper-btn{
+
+.main-houses__wrapper-btn {
   width: 100%;
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
+
 // end section main-houses
+
+
+// start section main-transfer
+.main-transfer {
+ min-height: 700px;
+  display: flex;
+  justify-content: center;
+}
+
+.main-transfer__images {
+  width: 50vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+
+@media (min-width: 2000px) {
+  .main-transfer__images{
+    height: 60vh;
+  }
+}
+
+.main-transfer__content {
+
+  width: 50vw;
+  display: flex;
+  align-items: center;
+}
+
+.main-transfer__box {
+  padding-right: 162px;
+  padding-left: 60px;
+  max-width: 960px;
+  width: 100%;
+}
+
+.main-transfer__text {
+  margin-bottom: 40px;
+}
+
+// end section main-transfer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @import 'media';
