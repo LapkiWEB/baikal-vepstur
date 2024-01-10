@@ -18,6 +18,9 @@
   .main-adv__inner {
     justify-content: space-around;
   }
+  .main-request--bg{
+    padding: 100px 0;
+  }
 }
 
 @media(max-width: 1400px) {
@@ -324,6 +327,13 @@
 
   .main__onescreen-wrapper {
     margin: 0 auto;
+  }
+  .main-request--bg{
+    padding: 50px 0;
+  }
+  .request__wrapper{
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
 

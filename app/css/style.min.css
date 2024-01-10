@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.main-adv__item-text, .main-excurs__item-title, .global-btn-white, .global-btn-green, .menu__phone,
+.request__items-input, .main-adv__item-text, .main-excurs__item-title, .global-btn-white, .global-btn-green, .menu__phone,
 .menu__email, html,
 body {
   font-family: "Acrom-Regular", sans-serif;
@@ -315,6 +315,15 @@ body {
   border: 1px solid #274641;
   color: #274641;
   background-color: #FFFFFF;
+}
+
+.global-btn-opacity {
+  background-color: transparent;
+}
+.global-btn-opacity:hover {
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  background-color: #274641;
 }
 
 @font-face {
@@ -872,6 +881,77 @@ body {
   padding-top: 40px;
 }
 
+.main-request {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main-request--bg {
+  background: rgba(39, 70, 65, 0.6);
+  padding: 130px 0;
+}
+
+.request__title {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.request__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 25px;
+}
+
+.request__item {
+  max-width: 350px;
+  width: 100%;
+  margin: 0px 20px;
+}
+
+.request__items-input {
+  border: 1px solid #FFFFFF;
+  background: rgba(255, 255, 255, 0.1);
+  color: #FFFFFF;
+  padding: 12px 15px;
+  margin-bottom: 35px;
+  width: 100%;
+  font-size: 16px;
+}
+.request__items-input::-webkit-input-placeholder {
+  color: #FFFFFF;
+}
+.request__items-input::-moz-placeholder {
+  color: #FFFFFF;
+}
+.request__items-input:-ms-input-placeholder {
+  color: #FFFFFF;
+}
+.request__items-input::-ms-input-placeholder {
+  color: #FFFFFF;
+}
+.request__items-input::placeholder {
+  color: #FFFFFF;
+}
+
+.request__items-textarea {
+  margin-bottom: 0;
+  height: 125px !important;
+  resize: none;
+}
+
+.request__inner-btn {
+  width: 100%;
+  text-align: center;
+}
+
 @media (max-width: 1600px) {
   .container {
     padding: 0 130px;
@@ -888,6 +968,9 @@ body {
   .main-adv__inner {
     -ms-flex-pack: distribute;
         justify-content: space-around;
+  }
+  .main-request--bg {
+    padding: 100px 0;
   }
 }
 @media (max-width: 1400px) {
@@ -1145,6 +1228,16 @@ body {
   }
   .main__onescreen-wrapper {
     margin: 0 auto;
+  }
+  .main-request--bg {
+    padding: 50px 0;
+  }
+  .request__wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 @media (max-height: 700px) {

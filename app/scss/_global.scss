@@ -255,3 +255,13 @@ body {
     background-color: $white;
   }
 }
+
+.global-btn-opacity {
+  background-color: transparent;
+
+  &:hover {
+    border: 1px solid $white;
+    color: $white;
+    background-color: $dark-green;
+  }
+}
