@@ -25,6 +25,17 @@ $(function () {
     }
   }));
 
+
+
+  $('.questions__item').on('click', (function () {
+    $(this).find('.questions__item-title--btn').addClass('active');
+    $(this).siblings().find('.questions__item-title--btn').removeClass('active');
+
+    $(this).find('.questions__item-text').show(500);
+    $(this).siblings().find('.questions__item-text').hide(500);
+
+  }));
+
 })
 
 // const mediaQuery = window.matchMedia('(max-width: 600px)')

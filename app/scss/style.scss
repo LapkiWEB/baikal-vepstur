@@ -588,7 +588,7 @@
 
 // start section main-transfer
 .main-transfer {
- min-height: 700px;
+  min-height: 700px;
   display: flex;
   justify-content: center;
 }
@@ -601,7 +601,7 @@
 }
 
 @media (min-width: 2000px) {
-  .main-transfer__images{
+  .main-transfer__images {
     height: 60vh;
   }
 }
@@ -627,22 +627,25 @@
 // end section main-transfer
 
 // start section reminder
-.reminder__item-text{
+.reminder__item-text {
   margin-bottom: 50px;
 
 }
-.reminder__item{
+
+.reminder__item {
   padding-left: 162px;
   padding-right: 50px;
   max-width: 1400px;
   width: 100%;
   padding-top: 50px;
 }
-.reminder__inner{
+
+.reminder__inner {
   display: flex;
   justify-content: space-between;
 }
-.reminder__item-images{
+
+.reminder__item-images {
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -650,11 +653,104 @@
   width: 485px;
 
 }
+
 // end section reminder
 
 
 
+// start section questions
 
+.questions__inner{
+  margin-bottom: 40px;
+}
+.questions__item {
+  padding: 20px 30px;
+  max-width: 1274px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  // 
+  border: 1px solid $white;
+  transition: all .3s;
+  cursor: pointer;
+}
+
+.questions__item.main-btn {
+  box-shadow: none;
+  &:hover {
+    box-shadow: 0px 0px 10px rgba(255, 1255, 255, 0.5);
+  }
+}
+
+.questions__wrapper {
+  position: relative;
+  z-index: 10;
+}
+
+.questions__item-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.questions__item-title--text {
+  position: relative;
+  color: $light-brown;
+}
+
+.questions__item-title--btn.active {
+  transition: all .3s;
+
+  .questions__row-1 {
+    transform: rotate(45deg);
+  }
+
+  .questions__row-2 {
+    transform: rotate(-45deg);
+    top: 9px;
+  }
+}
+
+.questions__row {
+  height: 3px;
+  width: 25px;
+  border-radius: 10px;
+  margin-left: 20px;
+  transition: all .3s;
+  background-color: $white;
+}
+
+.questions__row-1 {
+  transform: rotate(90deg);
+  position: relative;
+  top: 12px;
+}
+
+.questions__row-2 {
+  position: relative;
+  top: 10px;
+}
+
+.questions__item-text {
+  padding-top: 25px;
+  display: none;
+}
+
+.questions__text-open {
+  display: block;
+}
+
+
+
+.questions__wrapper-btn{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+// end section questions
 
 
 
