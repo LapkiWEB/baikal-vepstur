@@ -36,6 +36,29 @@ $(function () {
 
   }));
 
+
+
+  $('.main-reviews__inner').slick({
+    dots: false,
+    prevArrow: document.querySelector('.slick-prev'),
+    nextArrow: document.querySelector('.slick-next'),
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    // autoplay: true,
+    // autoplaySpeed: 10000,
+    dots: true,
+    responsive: [{
+      breakpoint: 601,
+      settings: {
+        dots: true,
+        dotsClass: 'slick-dots',
+        slidesToShow: 1,
+        arrows: false,
+      }
+    }]
+  });
+
+
 })
 
 // const mediaQuery = window.matchMedia('(max-width: 600px)')
