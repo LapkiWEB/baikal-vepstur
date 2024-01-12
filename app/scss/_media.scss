@@ -117,6 +117,10 @@
     font-size: 48px;
     line-height: 48px;
   }
+  .add__title{
+    font-size: 64px;
+    line-height: 64px;
+  }
 
   .section {
     padding: 40px 0;
@@ -434,6 +438,9 @@
   .main-reviews__item {
     padding: 20px 30px;
   }
+  .add-start{
+    padding-top: 100px;
+  }
 }
 
 @media(max-width: 700px) {
@@ -543,7 +550,16 @@
     font-size: 36px;
     line-height: 36px;
   }
+  .add__title{
+    font-size: 38px;
+    line-height: 48px;
+    max-width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
 
+  
+  }
   .main-about-addtext {
     font-size: 18px;
     line-height: 18px;
@@ -661,8 +677,7 @@
     height: 30px;
   }
 
-  // .main__onescreen-title {
-  //   font-size: 44px;
-  //   line-height: 50px;
-  // }
+  .add-start{
+    padding-top: 70px;
+  }
 }
