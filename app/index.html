@@ -229,7 +229,7 @@
             ТУРЫ ПО БАЙКАЛУ
           </h2>
           <div class="main__onescreen-wrapper">
-            <div class="global-btn-green main__onescreen-btn">
+            <div data-modal class="global-btn-green main__onescreen-btn">
               Оставить заявку
             </div>
             <a href="#" class="global-btn-green main__onescreen-btn">
@@ -526,7 +526,7 @@
 
         </div>
         <div class="extra__wrapper-btn">
-          <div class="global-btn-white">
+          <div data-modal class="global-btn-white">
             Оставить заявку
           </div>
         </div>
@@ -657,9 +657,9 @@
               автопарковка на закрытой
               территории Вепсского поместья.
             </p>
-            <a href="#" class="global-btn-white">
+            <div data-modal class="global-btn-white">
               Свяжитесь с нами!
-            </a>
+            </div>
           </div>
 
         </div>
@@ -829,7 +829,7 @@
 
           </div>
           <div class="questions__wrapper-btn">
-            <div class="global-btn-white">
+            <div data-modal class="global-btn-white">
               Остались вопросы?
             </div>
           </div>
@@ -1090,13 +1090,63 @@
                 </li>
               </ul>
             </div>
-            <div class="footer__btn global-btn-white">
+            <div data-modal class="footer__btn global-btn-white">
               Оставить заявку
             </div>
           </div>
         </div>
       </div>
     </footer>
+
+
+    <div class="modal">
+      <div class="modal__inner">
+        <div class="container">
+          <div class="modal__wrapper">
+    
+            <ul data-close class="close__btn">
+              <li class="close__line close__line1"></li>
+              <li class="close__line close__line2"></li>
+            </ul>
+    
+            <h2 class="modal__title title">
+              Оставить заявку
+            </h2>
+    
+          <form class="request-form">
+            <div class="request__wrapper">
+              <div class="request__item">
+                <div class="request__items">
+                  <input type="text" name="name" class="request__items-input" placeholder="Ваше имя..." required>
+                </div>
+                <div class="request__items">
+                  <input type="text" name="name" class="request__items-input" placeholder="Ваше телефон или почта..." required>
+                </div>
+              </div>
+              <div class="request__item">
+                <div class="request__items">
+                  <textarea class="request__items-input request__items-textarea" name="text"
+                    placeholder="Ваше сообщение..."></textarea>
+                </div>
+              </div>
+            </div>
+            <div class="request__inner-btn">
+              <button class="global-btn-white global-btn-opacity">
+                Отправить
+              </button>
+            </div>
+          </form>
+
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
   </div>
 
   <script src="js/main.min.js"></script>

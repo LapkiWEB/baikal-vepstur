@@ -197,7 +197,7 @@ body {
   color: #FFFFFF;
   position: relative;
   margin: 0 auto;
-  background-color: #274641;
+  background-color: rgb(39, 70, 65);
   font-size: 20px;
 }
 
@@ -234,7 +234,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #274641;
+  background-color: rgb(39, 70, 65);
   border-radius: 5px;
   border: 1px solid #DECDBD;
 }
@@ -333,7 +333,7 @@ body {
 }
 
 .row {
-  background-color: #274641;
+  background-color: rgb(39, 70, 65);
   height: 3px;
   border-radius: 5px;
   display: block;
@@ -360,7 +360,7 @@ body {
   height: 100vh;
   padding: 100px 0 100px 100px;
   font-size: 16px;
-  background-color: #274641;
+  background-color: rgb(39, 70, 65);
   border-left: 1px solid #DECDBD;
   border-bottom: 1px solid #DECDBD;
 }
@@ -391,10 +391,10 @@ body {
 }
 
 .global-btn-green {
-  border: 1px solid #274641;
+  border: 1px solid rgb(39, 70, 65);
   border-radius: 3px;
   padding: 10px 20px;
-  color: #274641;
+  color: rgb(39, 70, 65);
   font-size: 16px;
   background-color: #FFFFFF;
   cursor: pointer;
@@ -405,7 +405,7 @@ body {
 .global-btn-green:hover {
   border: 1px solid #FFFFFF;
   color: #FFFFFF;
-  background-color: #274641;
+  background-color: rgb(39, 70, 65);
 }
 
 .global-btn-white {
@@ -414,15 +414,15 @@ body {
   padding: 10px 20px;
   color: #FFFFFF;
   font-size: 16px;
-  background-color: #274641;
+  background-color: rgb(39, 70, 65);
   cursor: pointer;
   display: inline-block;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
 .global-btn-white:hover {
-  border: 1px solid #274641;
-  color: #274641;
+  border: 1px solid rgb(39, 70, 65);
+  color: rgb(39, 70, 65);
   background-color: #FFFFFF;
 }
 
@@ -430,8 +430,8 @@ body {
   background-color: transparent;
 }
 .global-btn-opacity:hover {
-  border: 1px solid #274641;
-  color: #274641;
+  border: 1px solid rgb(39, 70, 65);
+  color: rgb(39, 70, 65);
   background-color: #FFFFFF;
 }
 
@@ -501,6 +501,80 @@ body {
 
 .slick-dots li[class=slick-active] button {
   background-color: #fff;
+}
+
+.modal {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(39, 70, 65, 0.9);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  display: none;
+}
+
+.modal__inner {
+  width: 100%;
+}
+
+.modal__wrapper {
+  position: relative;
+  max-width: 1140px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.modal__title {
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.close__btn {
+  position: absolute;
+  top: 12px;
+  right: 0;
+  cursor: pointer;
+}
+
+.close__line {
+  width: 30px;
+  background-color: #FFFFFF;
+  height: 3px;
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 6px;
+  position: relative;
+}
+
+.close__line1 {
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+  top: 6px;
+}
+
+.close__line2 {
+  -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  top: -3px;
+}
+
+.show {
+  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hide {
+  display: none;
 }
 
 @font-face {
@@ -573,7 +647,7 @@ body {
 .header__address {
   display: inline-block;
   padding-left: 67px;
-  color: #274641;
+  color: rgb(39, 70, 65);
   font-size: 16px;
 }
 
@@ -599,7 +673,7 @@ body {
 }
 
 .header__phone {
-  color: #274641;
+  color: rgb(39, 70, 65);
   font-size: 16px;
   padding: 0 30px;
 }
@@ -614,14 +688,14 @@ body {
 .main__onescreen-title {
   font-size: 128px;
   line-height: 130px;
-  color: #274641;
+  color: rgb(39, 70, 65);
   text-transform: uppercase;
   padding-top: 150px;
 }
 
 .main__onescreen-subtitle {
   font-size: 64px;
-  color: #274641;
+  color: rgb(39, 70, 65);
   text-transform: uppercase;
   margin-bottom: 65px;
 }
