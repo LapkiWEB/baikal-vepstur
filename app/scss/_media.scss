@@ -11,6 +11,10 @@
     padding-right: 130px;
   }
 
+  .tours__item-content--wrapper {
+    padding-right: 130px;
+  }
+
   .main__onescreen-title {
     padding-top: 110px;
   }
@@ -96,6 +100,10 @@
     padding-right: 100px;
   }
 
+  .tours__item-content--wrapper {
+    padding-right: 100px;
+  }
+
   .header__wrapper {
     padding: 10px 0;
   }
@@ -117,7 +125,8 @@
     font-size: 48px;
     line-height: 48px;
   }
-  .add__title{
+
+  .add__title {
     font-size: 64px;
     line-height: 64px;
   }
@@ -154,6 +163,14 @@
   .main-adv__item-text {
     font-size: 20px;
   }
+
+  .tours__inner {
+    min-height: 600px;
+  }
+
+  .tours__item-content--wrapper {
+    padding-left: 30px;
+  }
 }
 
 @media(max-width: 1200px) {
@@ -168,6 +185,10 @@
   }
 
   .main-transfer__box {
+    padding-right: 40px;
+  }
+
+  .tours__item-content--wrapper {
     padding-right: 40px;
   }
 
@@ -328,6 +349,15 @@
     padding: 0;
   }
 
+  .tours__item-content--wrapper {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .tours__item {
+    padding: 0 40px;
+  }
+
   .main-transfer__images {
     max-width: 1000px;
     width: 100%;
@@ -372,6 +402,21 @@
 
   .footer__contacts {
     text-align: left;
+  }
+
+  .tours__inner {
+    flex-wrap: wrap;
+  }
+
+  .tours__item-images {
+    order: 1;
+    height: 500px;
+    // width: 500px !important;
+    margin: 0 40px;
+  }
+
+  .tours__item {
+    width: 100%;
   }
 }
 
@@ -438,7 +483,8 @@
   .main-reviews__item {
     padding: 20px 30px;
   }
-  .add-start{
+
+  .add-start {
     padding-top: 100px;
   }
 }
@@ -550,7 +596,8 @@
     font-size: 36px;
     line-height: 36px;
   }
-  .add__title{
+
+  .add__title {
     font-size: 38px;
     line-height: 48px;
     max-width: 300px;
@@ -558,8 +605,9 @@
     margin: 0 auto;
     margin-bottom: 30px;
 
-  
+
   }
+
   .main-about-addtext {
     font-size: 18px;
     line-height: 18px;
@@ -641,6 +689,15 @@
   .main-reviews__item-text {
     font-size: 16px;
   }
+
+  .tours__item {
+    padding: 0 20px;
+  }
+
+  .tours__item-images {
+    margin: 0 20px;
+    height: 400px;
+  }
 }
 
 @media(max-width: 500px) {
@@ -657,14 +714,23 @@
   .questions__item {
     padding: 15px 15px;
   }
+
+  .tours__item-images {
+    height: 350px;
+  }
 }
 
 @media(max-width: 400px) {
 
   .container,
   .main-transfer,
-  .extra__inner {
+  .extra__inner,
+  .tours__item {
     padding: 0 14px;
+  }
+
+  .tours__item-images {
+    margin: 0 14px;
   }
 
   .reminder__item {
@@ -677,7 +743,7 @@
     height: 30px;
   }
 
-  .add-start{
+  .add-start {
     padding-top: 70px;
   }
 }
