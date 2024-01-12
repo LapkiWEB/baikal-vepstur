@@ -435,6 +435,19 @@ body {
   background-color: #FFFFFF;
 }
 
+.link__border-bottom {
+  border-bottom: 1px solid #FFFFFF;
+}
+
+.hover-link__border-bottom {
+  border-bottom: 1px solid transparent;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.hover-link__border-bottom:hover {
+  border-bottom: 1px solid #FFFFFF;
+}
+
 .slick-prev {
   position: absolute;
   top: 50%;
@@ -1324,6 +1337,10 @@ body {
           justify-content: center;
 }
 
+.main-reviews__text {
+  margin-bottom: 50px;
+}
+
 .main-reviews__wrapper {
   max-width: 1000px;
   width: 100%;
@@ -1356,6 +1373,42 @@ body {
   font-size: 20px;
   margin-bottom: 20px;
   color: #DECDBD;
+}
+
+.footer {
+  padding: 30px 0;
+  font-size: 16px;
+}
+
+.footer__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__item {
+  margin-left: 30px;
+}
+
+.footer__contacts {
+  text-align: right;
+}
+
+.footer__btn {
+  margin-bottom: 20px;
+}
+
+.footer__phone,
+.footer__email {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.footer__social {
+  margin-bottom: 30px;
 }
 
 @media (max-width: 1600px) {
@@ -1509,6 +1562,21 @@ body {
   .main-reviews__item {
     height: 280px;
   }
+  .footer__inner {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .footer__item {
+    margin-left: 0;
+  }
+  .footer__logo {
+    max-width: 1000px;
+    width: 100%;
+    margin-bottom: 40px;
+  }
 }
 @media (max-width: 1000px) {
   .main-excurs__item {
@@ -1634,6 +1702,30 @@ body {
   }
   .main-transfer__content {
     width: 100%;
+  }
+  .footer {
+    padding-bottom: 0;
+  }
+  .footer__inner {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .footer__item {
+    max-width: 500px;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .footer__logo {
+    max-width: 500px;
+  }
+  .footer__requisites {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .footer__contacts {
+    text-align: left;
   }
 }
 @media (max-width: 800px) {

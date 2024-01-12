@@ -261,7 +261,18 @@ body {
   }
 }
 
+.link__border-bottom {
+  border-bottom: 1px solid $white;
+}
 
+.hover-link__border-bottom {
+  border-bottom: 1px solid transparent;
+  transition: all .3s;
+
+  &:hover {
+    border-bottom: 1px solid $white;
+  }
+}
 
 // start slider
 .slick-prev {

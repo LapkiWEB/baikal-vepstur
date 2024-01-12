@@ -756,6 +756,10 @@
 
 
 // start section main-reviews
+.main-reviews__text {
+  margin-bottom: 50px;
+}
+
 .main-reviews__wrapper {
   max-width: 1000px;
   width: 100%;
@@ -779,15 +783,48 @@
   overflow-y: auto;
   margin: 0 50px;
 }
-.main-reviews__item-title{
+
+.main-reviews__item-title {
   font-size: 20px;
   margin-bottom: 20px;
   color: $light-brown;
 }
+
 // end section main-reviews
 
 
+// start footer
+.footer {
+  padding: 30px 0;
+  font-size: 16px;
+}
 
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__item{
+  margin-left: 30px;
+}
+.footer__contacts {
+  text-align: right;
+}
+.footer__btn{
+  margin-bottom: 20px;
+}
+
+.footer__phone,
+.footer__email {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.footer__social {
+  margin-bottom: 30px;
+}
+
+
+// end footer
 
 
 
