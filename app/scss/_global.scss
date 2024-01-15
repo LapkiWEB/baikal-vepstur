@@ -421,7 +421,7 @@ body {
 
 
 .breadcrumbs {
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 .breadcrumbs__list-item {
@@ -461,6 +461,15 @@ body {
 
 .breadcrumbs__list-item:last-child::after {
   display: none;
+}
+
+.white {
+  .breadcrumbs__list-item {
+    color: $white;
+    &::after {
+      color: $white ;
+    }
+  }
 }
 
 // end breadcrumbs

@@ -117,7 +117,7 @@ body {
   font-family: "BadScript-Regular", sans-serif;
 }
 
-.main__onescreen-title {
+.add-about__title, .main__onescreen-title {
   font-family: "BelladonaFreeFonts-Regular", sans-serif;
 }
 
@@ -578,7 +578,7 @@ body {
 }
 
 .breadcrumbs {
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 .breadcrumbs__list-item {
@@ -603,6 +603,13 @@ body {
 }
 .breadcrumbs__list-item:last-child::after {
   display: none;
+}
+
+.white .breadcrumbs__list-item {
+  color: #FFFFFF;
+}
+.white .breadcrumbs__list-item::after {
+  color: #FFFFFF;
 }
 
 @font-face {
@@ -1602,6 +1609,15 @@ body {
   margin-bottom: 25px;
 }
 
+.add__subtitle {
+  font-size: 64px;
+  margin-bottom: 0 !important;
+}
+
+.add-about__title {
+  font-size: 128px;
+}
+
 @media (max-width: 1600px) {
   .container {
     padding: 0 130px;
@@ -1677,6 +1693,9 @@ body {
   .container {
     padding: 0 100px;
   }
+  .breadcrumbs {
+    margin-bottom: 20px;
+  }
   .reminder__item {
     padding-left: 100px;
   }
@@ -1737,6 +1756,12 @@ body {
   }
   .tours__item-content--wrapper {
     padding-left: 30px;
+  }
+  .add__subtitle {
+    font-size: 48px;
+  }
+  .add-about__title {
+    font-size: 96px;
   }
 }
 @media (max-width: 1200px) {
@@ -1958,6 +1983,9 @@ body {
   .tours__item {
     width: 100%;
   }
+  .add-about__title {
+    font-size: 64px;
+  }
 }
 @media (max-width: 800px) {
   .custom-logo-link {
@@ -2057,6 +2085,9 @@ body {
   .container {
     padding: 0 20px;
   }
+  .breadcrumbs {
+    margin-bottom: 10px;
+  }
   .reminder__item {
     padding-left: 20px;
     padding-right: 20px;
@@ -2097,9 +2128,9 @@ body {
     line-height: 36px;
   }
   .add__title {
-    font-size: 38px;
+    font-size: 48px;
     line-height: 48px;
-    max-width: 300px;
+    max-width: 400px;
     text-align: center;
     margin: 0 auto;
     margin-bottom: 30px;
@@ -2170,6 +2201,15 @@ body {
   .tours__item-images {
     margin: 0 20px;
     height: 400px;
+  }
+  .add__subtitle {
+    margin: 0 auto;
+    font-size: 36px;
+  }
+  .add-about__title {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 48px;
   }
 }
 @media (max-width: 500px) {
