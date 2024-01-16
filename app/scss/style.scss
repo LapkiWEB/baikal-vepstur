@@ -926,20 +926,25 @@
 
 
 // start str about
-.add__subtitle {
-  font-size: 64px;
-  margin-bottom: 0 !important;
-}
+// .add__subtitle {
+//   font-size: 64px;
+//   margin-bottom: 0 !important;
+// }
 
 .add-about__title {
   @extend %Belladona;
   font-size: 128px;
-
+  padding-top: 40px;
 }
 
 // end str about
 
+// start section about-descr
+.about-descr__text {
+  margin-bottom: 40px;
+}
 
+// end section about-descr
 
 
 

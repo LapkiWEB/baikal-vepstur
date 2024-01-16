@@ -437,6 +437,8 @@ body {
   color: $dark-green;
   margin-bottom: 10px;
 
+  transition: all .3s;
+
   &::after {
     position: absolute;
     content: '>';
@@ -452,9 +454,11 @@ body {
 
   a {
     transition: all 250ms ease-in-out;
+    border-bottom: 1px solid transparent;
 
     &:hover {
       // color: $light-grey;
+      border-bottom: 1px solid $dark-green;
     }
   }
 }
@@ -466,8 +470,15 @@ body {
 .white {
   .breadcrumbs__list-item {
     color: $white;
+
     &::after {
       color: $white ;
+    }
+
+    a {
+      &:hover {
+        border-bottom: 1px solid $white;
+      }
     }
   }
 }
