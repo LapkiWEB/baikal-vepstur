@@ -81,6 +81,12 @@
 
 
   }
+
+  .about__veps {
+    .tours__item-title {
+      font-size: 48px;
+    }
+  }
 }
 
 @media(max-width: 1300px) {
@@ -430,8 +436,15 @@
   .tours__item {
     width: 100%;
   }
+
   .add-about__title {
     font-size: 64px;
+  }
+
+  .about__veps {
+    .tours__item-btn--wrapper {
+      margin: 0 auto;
+    }
   }
 }
 
@@ -717,14 +730,22 @@
     margin: 0 20px;
     height: 400px;
   }
-  .add__subtitle{
+
+  .add__subtitle {
     margin: 0 auto;
     font-size: 36px;
   }
-  .add-about__title{
+
+  .add-about__title {
     margin: 0 auto;
     text-align: center;
     font-size: 48px;
+  }
+
+  .about__veps {
+    .tours__item-title{
+      font-size: 36px;
+    }
   }
 }
 

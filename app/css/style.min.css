@@ -109,7 +109,7 @@ body {
   font-family: "Acrom-Regular", sans-serif;
 }
 
-.main__onescreen-subtitle, .title {
+.about__veps .tours__item-title, .main__onescreen-subtitle, .title {
   font-family: "SlavicFreeFonts-Regular", sans-serif;
 }
 
@@ -1628,6 +1628,13 @@ body {
   margin-bottom: 40px;
 }
 
+.about__veps .tours__inner {
+  margin-bottom: 0;
+}
+.about__veps .tours__item-title {
+  font-size: 64px;
+}
+
 @media (max-width: 1600px) {
   .container {
     padding: 0 130px;
@@ -1694,6 +1701,9 @@ body {
   }
   .main-excurs__item-images img {
     height: 310px;
+  }
+  .about__veps .tours__item-title {
+    font-size: 48px;
   }
 }
 @media (max-width: 1300px) {
@@ -1993,6 +2003,9 @@ body {
   .add-about__title {
     font-size: 64px;
   }
+  .about__veps .tours__item-btn--wrapper {
+    margin: 0 auto;
+  }
 }
 @media (max-width: 800px) {
   .custom-logo-link {
@@ -2217,6 +2230,9 @@ body {
     margin: 0 auto;
     text-align: center;
     font-size: 48px;
+  }
+  .about__veps .tours__item-title {
+    font-size: 36px;
   }
 }
 @media (max-width: 500px) {

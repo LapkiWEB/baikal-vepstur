@@ -899,6 +899,7 @@
   margin-bottom: 25px;
   font-size: 32px;
   text-transform: uppercase;
+  // @extend %Slavic;
 }
 
 .tours__item-text {
@@ -947,6 +948,18 @@
 // end section about-descr
 
 
+// start section about__veps
+.about__veps {
+  .tours__inner {
+    margin-bottom: 0;
+  }
+  .tours__item-title{
+    @extend %Slavic;
+    font-size: 64px;
+  }
+}
+
+// end section about__veps
 
 
 
