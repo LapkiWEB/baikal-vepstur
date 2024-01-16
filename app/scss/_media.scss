@@ -38,6 +38,10 @@
   .main-transfer {
     min-height: 550px;
   }
+
+  .about-contacts__item {
+    max-width: 380px;
+  }
 }
 
 @media(max-width: 1400px) {
@@ -85,6 +89,16 @@
   .about__veps {
     .tours__item-title {
       font-size: 48px;
+    }
+  }
+
+  .about-contacts__item {
+    max-width: 330px;
+  }
+
+  .about-contacts__map {
+    iframe {
+      height: 400px;
     }
   }
 }
@@ -248,6 +262,16 @@
   }
 
 
+}
+
+@media(max-width: 1100px) {
+  .about-contacts__inner {
+    flex-wrap: wrap;
+  }
+
+  .about-contacts__item-requisites {
+    max-width: 100%;
+  }
 }
 
 @media(max-width: 1000px) {
@@ -553,6 +577,26 @@
   .main-excurs__preview-wrapper {
     position: inherit;
   }
+
+  .footer__social {
+    .social {
+      display: block;
+    }
+  }
+
+  .about-contacts__item {
+    margin-right: 0;
+  }
+
+  .about-contacts__item-social {
+    max-width: 100% !important;
+  }
+
+  .about-contacts__map {
+    iframe {
+      height: 300px;
+    }
+  }
 }
 
 // !!!!!!ВЕРТИКАЛЬ НАЧАЛО!!!!!!!!!!!
@@ -743,7 +787,7 @@
   }
 
   .about__veps {
-    .tours__item-title{
+    .tours__item-title {
       font-size: 36px;
     }
   }
