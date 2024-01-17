@@ -920,10 +920,13 @@
   margin-bottom: 25px;
 }
 
-.tours__item-price {
+.tours__item-box {
   color: $light-brown;
-  // font-size: 16px;
   margin-bottom: 40px;
+}
+
+.tours__item-data {
+  margin-bottom: 10px;
 }
 
 .tours__item-btn--wrapper {
@@ -1045,13 +1048,35 @@
     height: 100px;
   }
 }
-.tours-descr__item-text{
+
+.tours-descr__item-text {
   text-transform: uppercase;
 }
-.tours-descr__subtitle{
+
+.tours-descr__subtitle {
   @extend %Slavic;
   font-size: 48px;
- padding-bottom: 700px;
+  padding-bottom: 700px;
+}
+
+.tours-str {
+  .tours__item {
+    &:hover {
+      box-shadow: none;
+    }
+  }
+}
+
+.descr{
+  padding-bottom: 40px;
+}
+.descr__text {
+  margin-bottom: 40px;
+  color: $light-brown;
+}
+.descr__btn-wrapper{
+  width: 100%;
+  text-align: center;
 }
 // end section tours-descr
 

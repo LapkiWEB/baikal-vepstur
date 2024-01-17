@@ -244,6 +244,9 @@
     padding-bottom: 600px;
     font-size: 40px;
   }
+  .tours__item-title{
+    font-size: 24px;
+  }
 }
 
 @media(max-width: 1200px) {
@@ -879,6 +882,9 @@
   .add__price {
     text-align: center;
     width: 100%;
+  }
+  .tours__item-title{
+    font-size: 20px;
   }
 }
 
