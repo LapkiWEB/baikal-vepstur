@@ -588,7 +588,6 @@ body {
   font-size: 14px;
   line-height: 18px;
   position: relative;
-  color: #274641;
   margin-bottom: 10px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -599,27 +598,9 @@ body {
   right: 2px;
   top: 0px;
 }
-.breadcrumbs__list-item a {
-  -webkit-transition: all 250ms ease-in-out;
-  transition: all 250ms ease-in-out;
-  border-bottom: 1px solid transparent;
-}
-.breadcrumbs__list-item a:hover {
-  border-bottom: 1px solid #274641;
-}
 
 .breadcrumbs__list-item:last-child::after {
   display: none;
-}
-
-.white .breadcrumbs__list-item {
-  color: #FFFFFF;
-}
-.white .breadcrumbs__list-item::after {
-  color: #FFFFFF;
-}
-.white .breadcrumbs__list-item a:hover {
-  border-bottom: 1px solid #FFFFFF;
 }
 
 @font-face {

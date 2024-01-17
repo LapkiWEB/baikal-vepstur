@@ -430,57 +430,19 @@ body {
   margin-right: 3px;
   font-size: 14px;
   line-height: 18px;
-  // text-transform: uppercase;
   position: relative;
-  // @extend %Arsenal-Regular;
-  // color: $grey;
-  color: $dark-green;
   margin-bottom: 10px;
-
   transition: all .3s;
-
   &::after {
     position: absolute;
     content: '>';
     right: 2px;
     top: 0px;
-    // background-image: url('../images/icons/breadcrumbs.svg');
-    // background-repeat: no-repeat;
-    // background-position: center;
-    // background-size: cover;
-    // width: 10px;
-    // height: 8px;
-  }
-
-  a {
-    transition: all 250ms ease-in-out;
-    border-bottom: 1px solid transparent;
-
-    &:hover {
-      // color: $light-grey;
-      border-bottom: 1px solid $dark-green;
-    }
   }
 }
 
 .breadcrumbs__list-item:last-child::after {
   display: none;
-}
-
-.white {
-  .breadcrumbs__list-item {
-    color: $white;
-
-    &::after {
-      color: $white ;
-    }
-
-    a {
-      &:hover {
-        border-bottom: 1px solid $white;
-      }
-    }
-  }
 }
 
 // end breadcrumbs
