@@ -92,3 +92,18 @@ document.addEventListener('keydown', (e) => {
     clossModel();
   }
 });
+
+
+
+// document.querySelectorAll('.photo__wrapper img').forEach(img => {
+//   img.onclick = () => {
+//     document.querySelector('.pop-up').style.display = 'block';
+//     document.querySelector('.pop-up img').src = img.getAttribute('src');
+//     $(' body').css('overflow', 'hidden')
+//   }
+// });
+
+// document.querySelector('.pop-up span').onclick = () => {
+//   document.querySelector('.pop-up').style.display = 'none';
+//   $(' body').css('overflow', '');
+// }
