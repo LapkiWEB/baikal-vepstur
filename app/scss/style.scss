@@ -852,6 +852,18 @@
   color: $dark-green;
 }
 
+.add__days {
+  font-size: 32px;
+  margin-bottom: 10px;
+  @extend %Slavic;
+}
+
+.add__price {
+  font-size: 32px;
+  margin-bottom: 50px;
+  @extend %Slavic;
+}
+
 // end section add-start
 
 // start section tours
@@ -953,7 +965,8 @@
   .tours__inner {
     margin-bottom: 0;
   }
-  .tours__item-title{
+
+  .tours__item-title {
     @extend %Slavic;
     font-size: 64px;
   }
@@ -962,29 +975,84 @@
 // end section about__veps
 
 // start section about-contacts
-.about-contacts__inner{
+.about-contacts__inner {
   display: flex;
   justify-content: space-between;
 }
-.about-contacts__item{
+
+.about-contacts__item {
   margin-bottom: 30px;
   margin-right: 30px;
   max-width: 420px;
   width: 100%;
   font-size: 16px;
 }
-.about-contacts__item-social{
+
+.about-contacts__item-social {
   max-width: 200px !important;
   width: 100%;
 }
-.about-contacts__item-text{
+
+.about-contacts__item-text {
   margin-bottom: 30px;
 }
 
 // end section about-contacts
-// .about-contacts__map{
-//   max-width: 1600px;
-//   width: 100%;
-// }
+
+
+// start section tours-descr
+.tours-descr {
+  background-image: url('../images/content/tours-descr-bg1.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+
+.tours-descr__title {
+  padding-top: 50px;
+}
+
+.tours-descr__text {
+  max-width: 1200px;
+  width: 100%;
+  height: 216px;
+  margin-bottom: 50px;
+}
+
+.tours-descr__inner {
+  margin-bottom: 120px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1110px;
+  width: 100%;
+}
+
+.tours-descr__item {
+  display: flex;
+  justify-content: flex-start;
+  // max-width: 330px;
+  // width: 100%;
+  align-items: center;
+}
+
+.tours-descr__item-img {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+
+  img {
+    width: 100px;
+    height: 100px;
+  }
+}
+.tours-descr__item-text{
+  text-transform: uppercase;
+}
+.tours-descr__subtitle{
+  @extend %Slavic;
+  font-size: 48px;
+ padding-bottom: 700px;
+}
+// end section tours-descr
 
 @import 'media';
