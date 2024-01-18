@@ -6,7 +6,6 @@ const browserSync  = require('browser-sync').create();
 const autoprefixer = require('gulp-autoprefixer');
 const imagemin     = require('gulp-imagemin');
 const del          = require('del');
-
 function browsersync() {
   browserSync.init({
     server: {
@@ -47,7 +46,7 @@ function scripts() {
    .pipe(dest('app/js'))
    .pipe(browserSync.stream())
 }
-
+ 
 function styles() {
    return src([
      'node_modules/slick-carousel/slick/slick.css',

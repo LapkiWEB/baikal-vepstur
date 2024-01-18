@@ -2,6 +2,8 @@
 
 
 
+
+
 // window.onscroll = function showHeader() {
 //   let header = document.querySelector('.header');
 //   if (window.pageYOffset > 150) {
@@ -25,6 +27,7 @@ $(function () {
     }
   }));
 
+ 
 
 
   $('.questions__item').on('click', (function () {
@@ -57,6 +60,8 @@ $(function () {
       }
     }]
   });
+
+  lightGallery(document.querySelector('.gallery'));
 
 
 })
@@ -94,16 +99,3 @@ document.addEventListener('keydown', (e) => {
 });
 
 
-
-// document.querySelectorAll('.photo__wrapper img').forEach(img => {
-//   img.onclick = () => {
-//     document.querySelector('.pop-up').style.display = 'block';
-//     document.querySelector('.pop-up img').src = img.getAttribute('src');
-//     $(' body').css('overflow', 'hidden')
-//   }
-// });
-
-// document.querySelector('.pop-up span').onclick = () => {
-//   document.querySelector('.pop-up').style.display = 'none';
-//   $(' body').css('overflow', '');
-// }
