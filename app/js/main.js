@@ -27,7 +27,7 @@ $(function () {
     }
   }));
 
- 
+
 
 
   $('.questions__item').on('click', (function () {
@@ -60,6 +60,114 @@ $(function () {
       }
     }]
   });
+
+
+
+
+
+  $('.slider-for').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    fade: true,
+    asNavFor: '.slider-nav'
+  });
+
+  $('.slider-nav').slick({
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    prevArrow: document.querySelector('.slick-prev'),
+    nextArrow: document.querySelector('.slick-next'),
+    asNavFor: '.slider-for',
+    dots: true,
+    arrows: true,
+    centerMode: true,
+    focusOnSelect: true,
+    centerPadding: '0px',
+    responsive: [{
+      breakpoint: 1550,
+      settings: {
+        slidesToShow: 4,
+        dots: true,
+      }
+    },
+    {
+      breakpoint: 1000,
+      settings: {
+        slidesToShow: 3,
+        dots: true,
+      }
+    },
+    {
+      breakpoint: 601,
+      settings: {
+        slidesToShow: 3,
+        dots: true,
+        arrows: false,
+      }
+    },
+    {
+      breakpoint: 501,
+      settings: {
+        slidesToShow: 2,
+        dots: true,
+        centerMode: false,
+      }
+    },
+    ]
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   lightGallery(document.querySelector('.gallery'));
 
