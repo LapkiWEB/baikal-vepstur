@@ -19,11 +19,9 @@ $(function () {
     if (!$('.menu').hasClass('active')) {
       $('.menu').addClass('active');
       $('.menu__btn').addClass('active');
-      // $(' body').css('overflow', 'hidden')
     } else {
       $('.menu').removeClass('active');
       $('.menu__btn').removeClass('active');
-      // $(' body').css('overflow', '');
     }
   }));
 
@@ -45,8 +43,6 @@ $(function () {
     nextArrow: $('.main-reviews__wrapper .slick-next'),
     slidesToShow: 1,
     slidesToScroll: 1,
-    // autoplay: true,
-    // autoplaySpeed: 10000,
     dots: true,
     responsive: [{
       breakpoint: 601,
@@ -113,53 +109,6 @@ $(function () {
       ]
     });
   })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
   lightGallery(document.querySelector('.gallery'));
