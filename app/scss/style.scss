@@ -1293,7 +1293,34 @@
 
 // end section fun
 
+// start section offer
+.offer__inner {
+  display: flex;
+  justify-content: center;
+}
 
+.offer__item {
+  border: 1px solid $white;
+  border-radius: 3px;
+  padding: 10px 50px;
+  color: $white;
+  @extend %Acrom;
+  font-size: 32px;
+  background-color: $dark-green;
+  cursor: pointer;
+  display: inline-block;
+  transition: all .3s;
+  margin: 0 50px;
+
+  &:hover {
+    border: 1px solid $dark-green;
+    color: $dark-green;
+    background-color: $white;
+  }
+}
+
+
+// end section offer
 
 
 
