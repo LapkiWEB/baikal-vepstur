@@ -1124,23 +1124,15 @@
   width: 100%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 .product {
   padding-top: 0;
 }
 .product__item{
 
   margin-bottom: 150px;
+  &:last-child{
+    margin-bottom: 0;
+  }
 }
 .product__wrapper {
   display: flex;
@@ -1163,7 +1155,6 @@
 }
 
 .product__box {
-  // width: 810px;
   margin-left: 30px;
   display: flex;
   flex-wrap: wrap;
@@ -1229,8 +1220,6 @@
 }
 
 .product2-img {
-  // max-width: 245px;
-  // height: 170px;
   max-width: 270px;
   height: 200px;
   margin: 0 auto;
@@ -1240,16 +1229,6 @@
 .product__btn {
   margin-left: 30px;
 }
-
-
-
-
-
-
-
-
-
-
 
 // end section residence
 

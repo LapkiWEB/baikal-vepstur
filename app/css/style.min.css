@@ -1782,6 +1782,9 @@ body {
 .product__item {
   margin-bottom: 150px;
 }
+.product__item:last-child {
+  margin-bottom: 0;
+}
 
 .product__wrapper {
   display: -webkit-box;
@@ -2379,6 +2382,9 @@ body {
   .slider-nav__wrapper .slick-next {
     right: 0px;
   }
+  .product__item {
+    margin-bottom: 100px;
+  }
 }
 @media (max-width: 900px) {
   .product__inner {
@@ -2676,6 +2682,9 @@ body {
   }
   .slider-for.slick-initialized.slick-slider {
     max-width: 396px;
+  }
+  .product__item {
+    margin-bottom: 50px;
   }
 }
 @media (max-width: 500px) {

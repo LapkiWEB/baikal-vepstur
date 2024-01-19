@@ -600,6 +600,9 @@
     }
   }
 
+  .product__item {
+    margin-bottom: 100px;
+  }
 
 }
 
@@ -995,14 +998,14 @@
     height: 275px;
   }
 
-  // .product2-img {
-  //   max-width: 150px;
-  //   height: 100px;
-  // }
 
   .slider-for.slick-initialized.slick-slider {
     max-width: 396px;
 
+  }
+
+  .product__item {
+    margin-bottom: 50px;
   }
 
 }
