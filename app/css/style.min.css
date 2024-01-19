@@ -1895,6 +1895,58 @@ body {
   margin-left: 30px;
 }
 
+.fun__suptitle {
+  margin-bottom: 30px;
+}
+
+.fun__inner {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[5];
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.fun__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fun__item-wrapper {
+  padding: 30px 50px;
+  text-align: left;
+}
+.fun__item-wrapper.fun__item-wrapper--right {
+  text-align: right;
+}
+
+.fun__item-title {
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.fun__item-text {
+  color: #DECDBD;
+}
+
+.fun__item-small {
+  grid-column-start: span 2;
+}
+.fun__item-small img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.fun__item-big {
+  grid-column-start: span 3;
+}
+
 @media (max-width: 1600px) {
   .container {
     padding: 0 130px;
@@ -2093,10 +2145,76 @@ body {
     max-width: 245px;
     height: 170px;
   }
+  .product__box-title {
+    font-size: 24px;
+  }
+  .fun__inner {
+    -ms-grid-columns: (1fr)[1];
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .fun__inner .fun__item-small {
+    height: 400px;
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .fun__suptitle {
+    margin-bottom: 0;
+  }
+  .fun__item-wrapper {
+    padding: 30px 100px;
+    text-align: left;
+  }
+  .fun__item-wrapper.fun__item-wrapper--right {
+    text-align: left;
+  }
+  .fun__item-2 {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .fun__item-1 {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .fun__item-3 {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+  .fun__item-4 {
+    -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+            order: 4;
+  }
+  .fun__item-5 {
+    -webkit-box-ordinal-group: 7;
+        -ms-flex-order: 6;
+            order: 6;
+  }
+  .fun__item-6 {
+    -webkit-box-ordinal-group: 6;
+        -ms-flex-order: 5;
+            order: 5;
+  }
+  .fun__item-7 {
+    -webkit-box-ordinal-group: 8;
+        -ms-flex-order: 7;
+            order: 7;
+  }
+  .fun__item-8 {
+    -webkit-box-ordinal-group: 9;
+        -ms-flex-order: 8;
+            order: 8;
+  }
 }
 @media (max-width: 1200px) {
   .container {
     padding: 0 40px;
+  }
+  .fun__item-wrapper {
+    padding: 30px 40px;
   }
   .reminder__item {
     padding-left: 40px;
@@ -2686,6 +2804,22 @@ body {
   .product__item {
     margin-bottom: 50px;
   }
+  .fun__item-wrapper {
+    padding: 30px 20px;
+  }
+  .fun__item-small {
+    height: 300px !important;
+  }
+  .fun__item-small img {
+    height: 300px;
+  }
+  .fun__item-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .product__box-title {
+    font-size: 20px;
+  }
 }
 @media (max-width: 500px) {
   .main__onescreen-wrapper {
@@ -2716,6 +2850,9 @@ body {
   .extra__inner,
   .tours__item {
     padding: 0 14px;
+  }
+  .fun__item-wrapper {
+    padding: 30px 14px;
   }
   .tours__item-images {
     margin: 0 14px;

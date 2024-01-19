@@ -262,12 +262,76 @@
     max-width: 245px;
     height: 170px;
   }
+  .product__box-title{
+    font-size: 24px;
+  }
+
+  .fun__inner {
+    grid-template-columns: repeat(1, 1fr);
+
+    .fun__item-small {
+      height: 400px;
+      max-width: 600px;
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
+
+  .fun__suptitle {
+    margin-bottom: 0;
+  }
+
+  .fun__item-wrapper {
+    padding: 30px 100px;
+    text-align: left;
+
+    &.fun__item-wrapper--right {
+      text-align: left;
+    }
+  }
+
+  .fun__item-2 {
+    order: 1;
+  }
+
+  .fun__item-1 {
+    order: 2;
+  }
+
+  .fun__item-3 {
+    order: 3;
+  }
+
+  .fun__item-4 {
+    order: 4;
+  }
+
+  .fun__item-5 {
+    order: 6;
+  }
+
+  .fun__item-6 {
+    order: 5;
+  }
+
+  .fun__item-7 {
+    order: 7;
+  }
+
+  .fun__item-8 {
+    order: 8;
+  }
+
 }
 
 @media(max-width: 1200px) {
 
   .container {
     padding: 0 40px;
+  }
+
+  .fun__item-wrapper {
+    padding: 30px 40px;
   }
 
   .reminder__item {
@@ -1008,6 +1072,24 @@
     margin-bottom: 50px;
   }
 
+  .fun__item-wrapper {
+    padding: 30px 20px;
+  }
+
+  .fun__item-small {
+    height: 300px !important;
+
+    img {
+      height: 300px;
+    }
+  }
+  .fun__item-title{
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .product__box-title{
+    font-size: 20px;
+  }
 }
 
 @media(max-width: 500px) {
@@ -1042,6 +1124,10 @@
   .extra__inner,
   .tours__item {
     padding: 0 14px;
+  }
+
+  .fun__item-wrapper {
+    padding: 30px 14px;
   }
 
   .tours__item-images {
